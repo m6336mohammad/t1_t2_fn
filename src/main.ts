@@ -1,6 +1,11 @@
-// main.ts
-import { executeRange, myPrint } from './executeRange';
+// Example Use:
 
-executeRange(1, 10, 2, () => {
+import { executeRange, myPrint } from './executeRange.js';
+
+const stepOne: number = 1
+const stepTwo: number = 10
+const everySecond: number = 2
+
+executeRange(stepOne, stepTwo, everySecond, () => {
     myPrint();
 });
