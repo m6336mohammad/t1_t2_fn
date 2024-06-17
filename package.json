@@ -2,7 +2,8 @@
   "name": "t1_t2_fn",
   "version": "1.0.0",
   "description": "This package is a function with 3 arguments t1, t2, fun(), execution of argument 3 for t1 to t2",
-  "main": "index.js",
+  "main": "main.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +12,9 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.2",
+    "ts-node": "^10.9.2"
   }
 }
