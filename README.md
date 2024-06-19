@@ -51,7 +51,7 @@ executeRange(from, to, everySecond, () => {
 
 # out:
 
-whene everySecond = 2
+when everySecond variable = 2
 
 
 ```bash
@@ -62,7 +62,7 @@ Test Print
 Test Print
 
 ```
-whene everySecond = 5
+when everySecond variable = 5
 
 ```bash
 Test Print
