@@ -44,7 +44,28 @@ const to: number = 10
 const everySecond: number = 2
 
 executeRange(from, to, everySecond, () => {
-    myPrint();
+    console.log("Test print")
 });
+
+```
+
+# out:
+
+whene everySecond = 2
+
+
+```bash
+Test Print
+Test Print
+Test Print
+Test Print
+Test Print
+
+```
+whene everySecond = 5
+
+```bash
+Test Print
+Test Print
 
 ```
