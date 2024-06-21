@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "This package is a function with 3 arguments t1, t2, fun(), execution of argument 3 for t1 to t2",
   "main": "main.js",
-  "type": "module",
   "scripts": {
     "test": "jest"
   },
@@ -11,11 +10,13 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.5",
     "typescript": "^5.4.5"
   },
   "dependencies": {
     "@types/node": "^20.14.2",
-    "jest": "^29.7.0",
     "ts-node": "^10.9.2"
   }
 }
