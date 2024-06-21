@@ -27,14 +27,14 @@ describe('executeRange', () => {
     });
 
     it('should execute the myPrint function correctly', () => {
-        executeRange(0, 4, 2, myPrint);
+        executeRange(1, 10, 2, myPrint);
 
         // Fast-forward time by 2 seconds and check
-        jest.advanceTimersByTime(2000);
+        jest.advanceTimersByTime(1000);
         expect(logSpy).toHaveBeenCalledTimes(6); // Each myPrint call prints "print Nodejs" 5 times and "....End...." once
 
         // Fast-forward time by another 2 seconds and check
-        jest.advanceTimersByTime(2000);
+        jest.advanceTimersByTime(1000);
         expect(logSpy).toHaveBeenCalledTimes(12); // Each myPrint call prints "print Nodejs" 5 times and "....End...." once, called 2 times
 
         // Verify the content of the logs
