@@ -17,7 +17,7 @@ export const executeRange = (t1: number, t2: number, everySecond: number, fun: (
 export const myPrint = (): void => {
     let g = 0;
     while (g < 5) {
-        console.log("print Nodejs");
+        console.log(".*.print Nodejs.*.");
         g += 1;
     }
     console.log("....End....");
