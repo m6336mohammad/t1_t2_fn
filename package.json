@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@types/node": "^20.14.2",
+    "smsir_mh_js": "^1.0.4",
     "ts-node": "^10.9.2"
   }
 }
