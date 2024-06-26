@@ -54,7 +54,7 @@ yarn add t1_t2_fn
 
 ```bash
 
-import { executeRange, myPrint } from './executeRange.js';
+import { executeRange, myPrint } from 'executeRange';
 
 const from: number = 1
 const to: number = 10
