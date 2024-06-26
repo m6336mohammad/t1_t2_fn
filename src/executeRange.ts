@@ -1,5 +1,13 @@
 // executeRange.ts
 export const executeRange = (t1: number, t2: number, everySecond: number, fun: () => void): void => {
+    // Ensure valid input
+    if (everySecond <= 0) {
+        throw new Error("everySecond must be a positive number");
+    }
+    if (t1 > t2) {
+        throw new Error("t1 must be less than or equal to t2");
+    }
+
     let current = t1;
 
     function executeAndScheduleNext() {
@@ -15,10 +23,8 @@ export const executeRange = (t1: number, t2: number, everySecond: number, fun: (
 
 // Example function to be executed
 export const myPrint = (): void => {
-    let g = 0;
-    while (g < 5) {
+    for (let g = 0; g < 5; g++) {
         console.log("...print Nodejs...");
-        g += 1;
     }
     console.log("....End....");
 };
