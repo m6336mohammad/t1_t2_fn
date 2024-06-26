@@ -54,14 +54,15 @@ yarn add t1_t2_fn
 
 ```bash
 
-import { executeRange, myPrint } from 'executeRange';
 
-const from: number = 1
-const to: number = 10
-const everySecond: number = 2
+import { executeRange, myPrint } from 't1_t2_fn';
+
+const from: number = 1;
+const to: number = 10;
+const everySecond: number = 2;
 
 executeRange(from, to, everySecond, () => {
-    console.log("Test print")
+    myPrint(); // or console.log("..test..")
 });
 
 ```
