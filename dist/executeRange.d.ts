@@ -10,4 +10,9 @@ declare module 't1_t2_fn' {
      * @param fun - The function to execute.
      */
     export function executeRange(from: number, to: number, everySecond: number, fun: () => void): void;
+
+    /**
+     * Example function to be executed.
+     */
+    export function myPrint(): void;
 }
