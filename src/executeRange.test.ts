@@ -34,7 +34,7 @@ describe('executeRange', () => {
 
         // First myPrint call should happen at t=1
         expect(logSpy).toHaveBeenCalledTimes(6); // Prints "print Nodejs" 5 times and "....End...." once
-        expect(logSpy).toHaveBeenNthCalledWith(1, "print Nodejs");
+        expect(logSpy).toHaveBeenNthCalledWith(1, "...print Nodejs...");
         expect(logSpy).toHaveBeenNthCalledWith(6, "....End....");
 
         // Fast-forward by another 2 seconds to t=3
@@ -42,7 +42,7 @@ describe('executeRange', () => {
 
         // Second myPrint call should happen at t=3
         expect(logSpy).toHaveBeenCalledTimes(12); // Prints "print Nodejs" 5 times and "....End...." once again
-        expect(logSpy).toHaveBeenNthCalledWith(7, "print Nodejs");
+        expect(logSpy).toHaveBeenNthCalledWith(7, "...print Nodejs...");
         expect(logSpy).toHaveBeenNthCalledWith(12, "....End....");
     });
 });
