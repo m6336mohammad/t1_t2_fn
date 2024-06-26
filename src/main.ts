@@ -1,6 +1,6 @@
 // Example Use:
 
-import { executeRange, myPrint } from './executeRange.js';
+import { executeRange, myPrint } from './executeRange';
 
 const from: number = 1
 const to: number = 10
