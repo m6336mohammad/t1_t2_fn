@@ -62,7 +62,7 @@ const to: number = 10;
 const everySecond: number = 2;
 
 executeRange(from, to, everySecond, () => {
-    myPrint(); // or console.log("..test...")
+    myPrint(); // or console.log("..test..")
 });
 
 ```
