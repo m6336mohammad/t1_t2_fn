@@ -9,7 +9,7 @@
     "start": "node dist/sampleUse.js",
     "build": "tsc"
   },
-  "keywords": [],
+  "keywords": ["timer", "t1_t2_fn", "typescript","Mohammad Hadi","mmm.6336@gmail.com"],
   "author": "",
   "license": "MIT",
   "devDependencies": {
