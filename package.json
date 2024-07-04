@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/m6336mohammad/t1_t2_fn.git"
   },
-  "keywords": ["timer", "t1_t2_fn", "typescript","Mohammad Hadi","mmm.6336@gmail.com"],
+  "keywords": ["timer", "t1_t2_fn","timer_function", "typescript","Mohammad Hadi","mmm.6336@gmail.com"],
   "author": "",
   "license": "MIT",
   "devDependencies": {
