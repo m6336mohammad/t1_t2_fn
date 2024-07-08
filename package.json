@@ -4,6 +4,7 @@
   "description": "This package is a function with 3 arguments t1, t2, fun(), execution of argument 3 for t1 to t2",
   "main": "dist/t1_t2_fn.js",
   "types": "dist/t1_t2_fn.d.ts",
+  "bin": "dist/t1_t2_fn.js",
   "scripts": {
     "test": "jest",
     "start": "node dist/sampleUse.js",
@@ -13,7 +14,14 @@
     "type": "git",
     "url": "https://github.com/m6336mohammad/t1_t2_fn.git"
   },
-  "keywords": ["timer", "t1_t2_fn","timer_function", "typescript","Mohammad Hadi","mmm.6336@gmail.com"],
+  "keywords": [
+    "timer",
+    "t1_t2_fn",
+    "timer_function",
+    "typescript",
+    "Mohammad Hadi",
+    "mmm.6336@gmail.com"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
@@ -26,6 +34,15 @@
     "@types/node": "^20.14.2",
     "smsir_mh_js": "^1.0.4",
     "smsir_mh_js6": "^1.0.1",
+    "t1_t2_fn": "^1.0.1",
     "ts-node": "^10.9.2"
+  },
+  "pkg": {
+    "assets": [
+      "dist/**/*"
+    ],
+    "scripts": [
+      "dist/t1_t2_fn.js"
+    ]
   }
 }
